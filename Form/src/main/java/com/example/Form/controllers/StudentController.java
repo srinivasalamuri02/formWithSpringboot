@@ -14,7 +14,7 @@ public class StudentController {
     @Autowired
     private StudentRepository studentRepository;
 
-    @PostMapping("/registor")
+    @PostMapping("/register")
     public Student registor(@RequestParam String name,
                             @RequestParam String email,
                             @RequestParam Integer age){
